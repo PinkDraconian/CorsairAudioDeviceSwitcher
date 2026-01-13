@@ -8,7 +8,7 @@ import pywinusb.hid as hid
 # ---- CONFIG ----
 VID, PID = 0x1B1C, 0x2A08
 SOUNDVOLUMEVIEW = os.path.join(os.path.dirname(__file__), "SoundVolumeView.exe")
-HEADSET_DEVICE_NAME = "2- CORSAIR VOID WIRELESS v2 Gaming Headset"
+HEADSET_DEVICE_NAME = "CORSAIR VOID WIRELESS v2 Gaming Headset"
 SPEAKERS_DEVICE_NAME = "Realtek(R) Audio"
 
 CHECK_INTERVAL = 0.1         # seconds
